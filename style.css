@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+    
+  }
+
+
+
+.container
+{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 800px;
+    margin: 20px;
+}
+
+
+
+input {
+    border: none;
+    color: black;
+  
+    padding: 1rem 2rem;
+    display: block;
+    width: 70%;
+  }
+ 
+  
+  input:focus {
+    outline-color: rgb(179, 131, 226);
+  }
+button
+{
+    background-color:rgb(130, 15, 246) ;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    border: none;
+    color: white;
+    width: 20%;
+    margin: 10px;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+  
+  #myList li {
+    border-top: 1px solid rgb(108, 212, 210);
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+  
+   
+  }
+.checked
+{
+    text-decoration: line-through;
+    font-style: italic;
+    color: rgb(94, 92, 92);
+    cursor: pointer;
+    list-style: none;
+}
